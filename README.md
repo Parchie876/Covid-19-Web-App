@@ -1,4 +1,4 @@
-# covid-19-flu
+# Covid-19-flu
 
 ## Project setup
 ```
