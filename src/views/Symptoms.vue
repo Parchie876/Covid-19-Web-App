@@ -8,7 +8,7 @@
           <h2>Covid-19 Symtomes</h2>
           <ul class="breadcrumb lab-ul">
             <li><router-link to="/">Home</router-link></li>
-            <li>Prevention</li>
+            <li>Symtomes</li>
           </ul>
         </div>
       </div>

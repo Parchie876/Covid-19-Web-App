@@ -20,7 +20,7 @@
             <ul class="lab-ul">
               <li><router-link to="/">Home</router-link></li>
               <li><router-link to="/symptoms">Symptoms</router-link></li>
-              <li><a href="#prevention">Prevention</a></li>
+              <li><router-link to="/prevention">Prevention</router-link></li>
               <li><a href="#faq">FAQ</a></li>
               <li><a href="#about">About</a></li>
             </ul>
@@ -44,7 +44,9 @@
                 <ul class="lab-ul">
                   <li><router-link to="/">Home</router-link></li>
                   <li><router-link to="/symptoms">Symptoms</router-link></li>
-                  <li><a href="#prevention">Prevention</a></li>
+                  <li>
+                    <router-link to="/prevention">Prevention</router-link>
+                  </li>
                   <li><a href="#faq">FAQ</a></li>
                   <li><a href="#about">About</a></li>
                 </ul>
