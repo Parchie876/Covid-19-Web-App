@@ -21,7 +21,7 @@
               <li><router-link to="/">Home</router-link></li>
               <li><router-link to="/symptoms">Symptoms</router-link></li>
               <li><router-link to="/prevention">Prevention</router-link></li>
-              <li><a href="#faq">FAQ</a></li>
+              <li><router-link to="/faq">FAQ</router-link></li>
               <li><a href="#about">About</a></li>
               <li>
                 <router-link to="/wash-hands"
@@ -52,7 +52,7 @@
                   <li>
                     <router-link to="/prevention">Prevention</router-link>
                   </li>
-                  <li><a href="#faq">FAQ</a></li>
+                  <li><router-link to="/faq">FAQ</router-link></li>
                   <li><a href="#about">About</a></li>
                 </ul>
               </div>
@@ -72,6 +72,6 @@
 <script>
 export default {
   name: "NavigationMenu",
-  components: {},
+  components: {}
 };
 </script>

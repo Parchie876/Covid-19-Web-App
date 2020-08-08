@@ -44,8 +44,8 @@ import NavigationMenu from "../components/NavigationMenu";
 export default {
   name: "Home",
   components: {
-    NavigationMenu,
-  },
+    NavigationMenu
+  }
 };
 </script>
 <style>

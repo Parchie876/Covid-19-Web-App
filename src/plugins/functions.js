@@ -1,5 +1,6 @@
 import Swiper from "swiper/swiper-bundle.min.js";
 import jQuery from "jquery";
+import $ from "jquery";
 import WOW from "wowjs/dist/wow";
 
 (function($) {
@@ -139,7 +140,7 @@ import WOW from "wowjs/dist/wow";
     });
 
     // accordion start here
-    $(".accordion-item .active").slideDown();
+    $(".accordion-item").slideDown();
     $(".accordion-list").on("click", function(e) {
       if (
         $(this)
@@ -295,6 +296,6 @@ import WOW from "wowjs/dist/wow";
     });
 
     // wow animation
-    new WOW().init();
+   new WOW().init();
   });
 })(jQuery);
