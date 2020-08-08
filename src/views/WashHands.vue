@@ -1,6 +1,5 @@
 <template>
   <div>
-    <NavigationMenu />
     <!-- Page Header Section Start Here -->
     <section class="page-header">
       <div class="container">
@@ -208,11 +207,10 @@
   </div>
 </template>
 <script>
-import NavigationMenu from "../components/NavigationMenu";
 export default {
   name: "WashHands",
   components: {
-    NavigationMenu
+
   }
 };
 </script>

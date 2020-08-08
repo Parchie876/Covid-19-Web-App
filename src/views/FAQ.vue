@@ -1,6 +1,5 @@
 <template>
   <div>
-    <NavigationMenu />
     <!-- Page Header Section Start Here -->
     <section class="page-header">
       <div class="container">
@@ -940,13 +939,10 @@
   </div>
 </template>
 <script>
-import NavigationMenu from "../components/NavigationMenu";
 import $ from "jquery";
 export default {
   name: "FAQ",
-  components: {
-    NavigationMenu,
-  },
+  components: {},
   methods: {
     all(e) {
       // accordion start here
@@ -979,7 +975,7 @@ export default {
           }
         }
       });
-    },
-  },
+    }
+  }
 };
 </script>

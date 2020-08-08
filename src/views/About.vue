@@ -1,6 +1,5 @@
 <template>
   <div>
-    <NavigationMenu />
     <!-- Page Header Section Start Here -->
     <section class="page-header">
       <div class="container">
@@ -302,11 +301,10 @@
 
 <script>
 // @ is an alias to /src
-import NavigationMenu from "../components/NavigationMenu";
 export default {
   name: "Home",
   components: {
-    NavigationMenu,
+
   },
 };
 </script>

@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-    <NavigationMenu />
     <section class="banner-section home-3">
       <div class="banner-area">
         <div class="container">
@@ -40,12 +39,9 @@
 
 <script>
 // @ is an alias to /src
-import NavigationMenu from "../components/NavigationMenu";
 export default {
   name: "Home",
-  components: {
-    NavigationMenu
-  }
+  components: {},
 };
 </script>
 <style>
