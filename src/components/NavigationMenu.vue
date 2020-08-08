@@ -23,6 +23,11 @@
               <li><router-link to="/prevention">Prevention</router-link></li>
               <li><a href="#faq">FAQ</a></li>
               <li><a href="#about">About</a></li>
+              <li>
+                <router-link to="/wash-hands"
+                  >How to Wash Your Hand</router-link
+                >
+              </li>
             </ul>
           </div>
         </div>
@@ -52,8 +57,8 @@
                 </ul>
               </div>
               <div class="header-btn">
-                <a href="#" class="lab-btn style-2"
-                  ><span>are you sick</span></a
+                <router-link to="/wash-hands" class="lab-btn style-2"
+                  ><span>How to Wash Your Hands</span></router-link
                 >
               </div>
             </div>

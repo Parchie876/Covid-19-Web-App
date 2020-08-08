@@ -170,7 +170,7 @@ import NavigationMenu from "../components/NavigationMenu";
 export default {
   name: "Symptoms",
   components: {
-    NavigationMenu,
-  },
+    NavigationMenu
+  }
 };
 </script>

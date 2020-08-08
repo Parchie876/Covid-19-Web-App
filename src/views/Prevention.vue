@@ -380,7 +380,7 @@ import NavigationMenu from "../components/NavigationMenu";
 export default {
   name: "Prevention",
   components: {
-    NavigationMenu,
-  },
+    NavigationMenu
+  }
 };
 </script>
