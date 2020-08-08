@@ -22,7 +22,7 @@
               <li><router-link to="/symptoms">Symptoms</router-link></li>
               <li><router-link to="/prevention">Prevention</router-link></li>
               <li><router-link to="/faq">FAQ</router-link></li>
-              <li><a href="#about">About</a></li>
+              <li><router-link to="/about">About</router-link></li>
               <li>
                 <router-link to="/wash-hands"
                   >How to Wash Your Hand</router-link
@@ -53,7 +53,7 @@
                     <router-link to="/prevention">Prevention</router-link>
                   </li>
                   <li><router-link to="/faq">FAQ</router-link></li>
-                  <li><a href="#about">About</a></li>
+                  <li><router-link to="/about">About</router-link></li>
                 </ul>
               </div>
               <div class="header-btn">
