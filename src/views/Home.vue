@@ -19,8 +19,8 @@
                     </li>
                     <li>Deaths <span class="count-people">716436</span></li>
                   </ul>
-                  <a href="#" class="lab-btn style-2"
-                    ><span>Meet the doctor</span></a
+                  <router-link to="/outbreak" class="lab-btn style-2"
+                    ><span>Outbreak</span></router-link
                   >
                 </div>
               </div>
