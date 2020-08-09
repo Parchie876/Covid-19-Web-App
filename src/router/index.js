@@ -24,39 +24,40 @@ const routes = [
     path: "/symptoms",
     name: "Symptoms",
     // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
+    // this generates a separate chunk (symptoms.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () =>
-      import(/* webpackChunkName: "about" */ "../views/Symptoms.vue")
+      import(/* webpackChunkName: "symptoms" */ "../views/Symptoms.vue")
   },
   {
     path: "/prevention",
     name: "Prevention",
     // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
+    // this generates a separate chunk (prevention.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () =>
-      import(/* webpackChunkName: "about" */ "../views/Prevention.vue")
+      import(/* webpackChunkName: "prevention" */ "../views/Prevention.vue")
   },
   {
     path: "/wash-hands",
     name: "WashHands",
     // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
+    // this generates a separate chunk (wash-hands.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () =>
-      import(/* webpackChunkName: "about" */ "../views/WashHands.vue")
+      import(/* webpackChunkName: "wash-hands" */ "../views/WashHands.vue")
   },
   {
     path: "/faq",
     name: "FAQ",
     // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
+    // this generates a separate chunk (faq.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ "../views/FAQ.vue")
+    component: () => import(/* webpackChunkName: "faq" */ "../views/FAQ.vue")
   },
   {
     path: "*",
+    name: "404",
     component: NotFound
   }
 ];
