@@ -4545,7 +4545,9 @@ Tags: clinic, corona, coronavirus, Coronavirus disease, coronavirus prevention, 
   /* @@@@@@@@@@@@@  Footer Section Start Here  @@@@@@@@@@@@@@ */
   footer {
     background-position: center bottom;
-    background-size: cover; }
+    background-size: cover;
+    background: url(assets/images/banner/bg-image/footer-bg-3.jpg);
+}
     footer .footer-top .footer-item {
       margin: 30px 0; }
       @media (min-width: 992px) {
